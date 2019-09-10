@@ -1,0 +1,16 @@
+.navbarTopSpacing {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+.navbarText {
+  padding-left: 40px;
+  color: rgb(179, 179, 179);
+  transition: 0.5s;
+}
+
+.navbarText:hover {
+  text-decoration: none;
+  color: #000;
+}
