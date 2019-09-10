@@ -14,7 +14,6 @@ export default () => (
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
     <Nav>
-      <Link to="/home" className="navbarText" activeStyle={activeStyle}>Home</Link>
       <Link to="/about" className="navbarText" activeStyle={activeStyle}>About</Link>
       <Link to="/services" className="navbarText" activeStyle={activeStyle}>Services</Link>
       <Link to="/works" className="navbarText" activeStyle={activeStyle}>Works</Link>
