@@ -1,12 +1,12 @@
 import React from "react"
 import { Container } from 'react-bootstrap';
 
-import Navbar from "./navbar"
+import Header from "./header"
 import Footer from "./footer"
 
 export default ({ children }) => (
   <Container>
-    <Navbar />
+    <Header />
       { children }
     <Footer />
   </Container>

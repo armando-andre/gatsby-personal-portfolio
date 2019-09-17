@@ -1,9 +1,9 @@
-/* @font-face {
+@font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon/icomoon.eot?srf3rx");
   src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
   font-weight: normal;
-  font-style: normal; } */
+  font-style: normal; }
 
 /* =======================================================
 *
@@ -13,10 +13,6 @@
 * ======================================================= */
 html {
   scroll-behavior: smooth;
-}
-
-.header-logo {
-  width: 8vh;
 }
 
 body {
@@ -562,20 +558,20 @@ header .colorlib-navbar-brand .colorlib-logo img {
   left: 7.5%; }
 
 .progress.blue .progress-bar {
-  border-color: lightblue; }
+  border-color: #049dff; }
 
 .progress.blue .progress-value {
-  color: lightblue; }
+  color: #049dff; }
 
 .progress.blue .progress-left .progress-bar {
   -webkit-animation: loading-2 1.5s linear forwards 1.8s;
   animation: loading-2 1.5s linear forwards 1.8s; }
 
 .progress.yellow .progress-bar {
-  border-color: lightgoldenrodyellow; }
+  border-color: #fdba04; }
 
 .progress.yellow .progress-value {
-  color: lightgoldenrodyellow; }
+  color: #fdba04; }
 
 .progress.yellow .progress-left .progress-bar {
   -webkit-animation: loading-3 0.4s linear forwards 1.8s;

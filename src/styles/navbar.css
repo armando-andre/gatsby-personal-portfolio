@@ -14,3 +14,11 @@
   text-decoration: none;
   color: #000;
 }
+
+.navbar-light .navbar-toggler {
+  border: none;
+}
+
+.navbar-light .navbar-toggler:focus {
+  outline: none
+}

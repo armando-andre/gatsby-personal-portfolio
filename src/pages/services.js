@@ -45,12 +45,12 @@ export default () => (
 											<div className="services animate-box">
 												<h3>WORK TOOLS</h3>
 												<ul>
-													<li>GitHub</li>
-													<li>GitLab</li>
 													<li>Postman</li>
 													<li>Insomnia</li>
 													<li>MongoLab</li>
+													<li>GitHub / GitLab</li>
 													<li>Affinity Designer</li>
+													<li>GraphQL Playground</li>
 													<li>Visual Studio Code</li>
 												</ul>
 											</div>
@@ -96,8 +96,8 @@ export default () => (
 											<div className="services animate-box">
 												<h3>OTHERS</h3>
 												<ul>
-													<li>Git</li>
 													<li>Node JS</li>
+													<li>GraphQL</li>
 													<li>RESTful API's</li>
 													<li>CSS / SASS / Flexbox</li>
 												</ul>
@@ -105,9 +105,9 @@ export default () => (
 											<div className="services animate-box">
 												<h3>LONG ROAD EXTRAS</h3>
 												<ul>
+													<li>Swift</li>
 													<li>Redux</li>
 													<li>Meteor</li>
-													<li>GraphQL</li>
 													<li>Laravel</li>
 													<li>Tensor Flow</li>
 													<li>Apollo Client</li>
