@@ -1,9 +1,7 @@
-/* @font-face {
+@font-face {
   font-family: 'icomoon';
-  src: url("../fonts/icomoon/icomoon.eot?srf3rx");
-  src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
   font-weight: normal;
-  font-style: normal; } */
+  font-style: normal; }
 
 /* =======================================================
 *
@@ -1388,4 +1386,25 @@ input[type="text"] {
 
 .margin-right {
   margin-right: 25px;
+}
+
+
+
+
+.carousel-indicators li { visibility: hidden; }
+
+.carousel-inner .carousel-item {
+  opacity: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: block;
+  position: absolute;
+  transition: opacity 1s ease-in-out;
+}
+.carousel-inner .carousel-item:first-of-type {
+  position: relative;
+}
+.carousel-inner .active {
+  opacity: 1;
 }
