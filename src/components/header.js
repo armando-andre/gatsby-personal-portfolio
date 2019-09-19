@@ -1,6 +1,6 @@
 import React from "react"
 import { Navbar, Nav } from 'react-bootstrap'
-import AniLink from "gatsby-plugin-transition-link/AniLink"
+import AniLink from 'gatsby-plugin-transition-link/AniLink'
 import Fade from 'react-reveal/Fade';
 
 import logo from "../images/logo-dark-no-space.svg"

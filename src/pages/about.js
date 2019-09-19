@@ -3,10 +3,12 @@ import Img from "gatsby-image"
 import { graphql } from "gatsby"
 import Fade from 'react-reveal/Fade';
 import Carousel from 'react-bootstrap/Carousel'
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 import Layout from "../components/layout";
+import IconsComponent from "../components/icons";
 
-const AboutPage= (props) => {
+const AboutPage = (props) => {
 	return (
 		<Layout>
 			<Fade delay={500}>
@@ -15,23 +17,24 @@ const AboutPage= (props) => {
 						<div className="row text-center">
 							<h2 className="bold">About</h2>
 						</div>
+						<Fade delay={1500}>
 						<div className="row row-padded-bottom">
-							<div className="col-md-5 animate-box">
-								<Carousel slide={false} interval={3000} style={{width: '100%'}} pauseOnHover={false} controls={false}>
+							<div className="col-md-5 animate-box" style={{marginRight: '70px'}}>
+								<Carousel slide={false} interval={5000} pauseOnHover={false} controls={false} style={{width: '100%'}}>
 									<Carousel.Item classNameName="carousel-item">
-										<Img fluid={props.data.portrait2.childImageSharp.fluid} />
+										<Img style={{borderRadius: '5px'}} fluid={props.data.portrait2.childImageSharp.fluid} />
 									</Carousel.Item>
 									<Carousel.Item classNameName="carousel-item">
-										<Img fluid={props.data.portrait1.childImageSharp.fluid} />
+										<Img style={{borderRadius: '5px'}} fluid={props.data.portrait1.childImageSharp.fluid} />
 									</Carousel.Item>
 									<Carousel.Item classNameName="carousel-item">
-										<Img fluid={props.data.portrait3.childImageSharp.fluid} />
+										<Img style={{borderRadius: '5px'}} fluid={props.data.portrait3.childImageSharp.fluid} />
 									</Carousel.Item>
 								</Carousel>
 							</div>
 							<div className="col-md-6 col-md-push-1 animate-box">
 								<div className="about-desc">
-									<Carousel slide={false} interval={3000} pauseOnHover={false} controls={false}>
+									<Carousel slide={false} interval={5000} pauseOnHover={false} controls={false} style={{width: '70vw'}}>
 										<Carousel.Item classNameName="carousel-item">
 											<h2>
 												<span>Armando André</span>
@@ -59,30 +62,17 @@ const AboutPage= (props) => {
 											talent to understand computers. I have been using my knowledge to design,
 											create, develop and implement applications and websites for more than a year.
 										</p>
-										{/* <p className="colorlib-social-icons">
-											<a href="https://linkedin.com/in/armando-calderon-927677171" 
-											target="_blank">
-												<i className="icon-margin icon-linkedin2"></i>
-											</a>
-											<a href="mailto: armandoandrecalderon@gmail.com?Subject=Contact%20for%20job">
-												<i className="icon-margin icon-mail4"></i>
-											</a>
-											<a href="https://www.instagram.com/armando__andre/" 
-											target="_blank">
-												<i className="icon-margin icon-instagram"></i>
-											</a>
-											<a href="https://github.com/armando-andre" 
-											target="_blank">
-												<i className="icon-margin icon-github"></i>
-											</a>
-										</p> */}
+										<IconsComponent />
 										<p>
-											<a href="work.html" className="btn btn-primary btn-outline">View My Works</a>
+											<AniLink paintDrip hex="#000000" to="/works" className="btn btn-primary btn-outline">
+												<div style={{fontSize: '10px'}}>Contact Me</div>
+											</AniLink>
 										</p>
 									</div>
 								</div>
 							</div>
 						</div>
+						</Fade>
 					</div>
 				</div>
 					{/* <div className="intro-heading">
@@ -172,7 +162,7 @@ const AboutPage= (props) => {
 										<div className="row">
 											<div className="col-md-12 col-md-offset-0 animate-box intro-heading">
 												<span>Target</span>
-												<h1>Goals</h1>
+												<h1>Focus</h1>
 											</div>
 										</div>
 										<div className="row">

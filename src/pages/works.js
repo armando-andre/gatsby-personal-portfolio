@@ -1,7 +1,6 @@
 import React from "react";
 
 import Layout from "../components/layout";
-import "../components/index.css"
 
 export default () => (
   <Layout>
