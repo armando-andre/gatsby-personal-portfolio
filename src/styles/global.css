@@ -368,6 +368,7 @@ header .colorlib-navbar-brand .colorlib-logo img {
   top: .4em;
   left: -50px; }
   .rotate .heading {
+    animation-name: none !important;
     font-family: "Karla", Arial, sans-serif;
     font-size: 14px;
     text-transform: uppercase;
@@ -499,7 +500,7 @@ header .colorlib-navbar-brand .colorlib-logo img {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  border: 2px solid transparent;
+  border: 2px solid #f0f0f0;
   position: absolute;
   top: 0;
   left: 0; }
@@ -560,40 +561,40 @@ header .colorlib-navbar-brand .colorlib-logo img {
   left: 7.5%; }
 
 .progress.blue .progress-bar {
-  border-color: gray; }
+  border-color: #000; }
 
 .progress.blue .progress-value {
-  color: gray; }
+  color: #000; }
 
 .progress.blue .progress-left .progress-bar {
   -webkit-animation: loading-2 1.5s linear forwards 1.8s;
   animation: loading-2 1.5s linear forwards 1.8s; }
 
 .progress.yellow .progress-bar {
-  border-color: gray; }
+  border-color: #000; }
 
 .progress.yellow .progress-value {
-  color: gray; }
+  color: #000; }
 
 .progress.yellow .progress-left .progress-bar {
   -webkit-animation: loading-3 0.4s linear forwards 1.8s;
   animation: loading-3 0.4s linear forwards 1.8s; }
 
 .progress.pink .progress-bar {
-  border-color: gray; }
+  border-color: #000; }
 
 .progress.pink .progress-value {
-  color: gray; }
+  color: #000; }
 
 .progress.pink .progress-left .progress-bar {
   -webkit-animation: loading-4 0.4s linear forwards 1.8s;
   animation: loading-4 0.4s linear forwards 1.8s; }
 
 .progress.green .progress-bar {
-  border-color: gray; }
+  border-color: #000; }
 
 .progress.green .progress-value {
-  color: gray; }
+  color: #000; }
 
 .progress.green .progress-left .progress-bar {
   -webkit-animation: loading-5 1.2s linear forwards 1.8s;
@@ -1389,6 +1390,7 @@ input[type="text"] {
 }
 
 .margin-right {
+  margin-bottom: 50px;
   margin-right: 25px;
 }
 

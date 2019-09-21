@@ -40,7 +40,8 @@ const IconsComponent = () => {
         <a href="https://www.google.com/maps/place/UNIQORNS/@18.450566,-66.070403,16z/data=!4m5!3m4!1s0x8c036fcaaca69e1b:0xc5f2015e9f42fcd2!8m2!3d18.4498914!4d-66.0739543" target="_blank">
           <FontAwesomeIcon icon={['far', 'map']} style={iconFont} />
           1250 Avenida Juan Ponce de León 4th Floor, San Juan, 00907
-        </a></li>
+        </a>
+      </li>
     </ul>
   )
 }

@@ -44,6 +44,7 @@ const Header = () => {
           <AniLink paintDrip hex="#000000" to="/about" className="navbarText" activeStyle={activeStyle}>About</AniLink>
           <AniLink paintDrip hex="#000000" to="/services" className="navbarText" activeStyle={activeStyle}>Services</AniLink>
           <AniLink paintDrip hex="#000000" to="/works" className="navbarText" activeStyle={activeStyle}>Works</AniLink>
+          <AniLink paintDrip hex="#000000" to="/ideas" className="navbarText" activeStyle={activeStyle}>Ideas</AniLink>
           <AniLink paintDrip hex="#000000" to="/blog" className="navbarText" activeStyle={activeStyle}>Blog</AniLink>
           <AniLink paintDrip hex="#000000" to="/contact" className="navbarText" activeStyle={activeStyle}>Contact</AniLink>
         </Nav>
