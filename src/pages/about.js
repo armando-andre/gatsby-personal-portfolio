@@ -6,7 +6,7 @@ import Carousel from 'react-bootstrap/Carousel'
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 import Layout from "../components/layout";
-import IconsComponent from "../components/icons";
+import IconsComponent from "../components/aboutIcons";
 
 const AboutPage = (props) => {
 	return (
@@ -17,17 +17,16 @@ const AboutPage = (props) => {
 						<div className="row text-center">
 							<h2 className="bold">About</h2>
 						</div>
-						<Fade delay={1500}>
 						<div className="row row-padded-bottom">
 							<div className="col-md-5 animate-box" style={{marginRight: '70px'}}>
 								<Carousel slide={false} interval={5000} pauseOnHover={false} controls={false} style={{width: '100%'}}>
-									<Carousel.Item classNameName="carousel-item">
+									<Carousel.Item className="carousel-item">
 										<Img style={{borderRadius: '5px'}} fluid={props.data.portrait2.childImageSharp.fluid} />
 									</Carousel.Item>
-									<Carousel.Item classNameName="carousel-item">
+									<Carousel.Item className="carousel-item">
 										<Img style={{borderRadius: '5px'}} fluid={props.data.portrait1.childImageSharp.fluid} />
 									</Carousel.Item>
-									<Carousel.Item classNameName="carousel-item">
+									<Carousel.Item className="carousel-item">
 										<Img style={{borderRadius: '5px'}} fluid={props.data.portrait3.childImageSharp.fluid} />
 									</Carousel.Item>
 								</Carousel>
@@ -35,17 +34,17 @@ const AboutPage = (props) => {
 							<div className="col-md-6 col-md-push-1 animate-box">
 								<div className="about-desc">
 									<Carousel slide={false} interval={5000} pauseOnHover={false} controls={false} style={{width: '70vw'}}>
-										<Carousel.Item classNameName="carousel-item">
+										<Carousel.Item className="carousel-item">
 											<h2>
 												<span>Armando André</span>
 											</h2>
 										</Carousel.Item>
-										<Carousel.Item classNameName="carousel-item">
+										<Carousel.Item className="carousel-item">
 											<h2>
 												<span>Software Engineer</span>
 											</h2>
 										</Carousel.Item>
-										<Carousel.Item classNameName="carousel-item">
+										<Carousel.Item className="carousel-item">
 											<h2>
 												<span>Fullstack Developer</span>
 											</h2>
@@ -65,14 +64,13 @@ const AboutPage = (props) => {
 										<IconsComponent />
 										<p>
 											<AniLink paintDrip hex="#000000" to="/works" className="btn btn-primary btn-outline">
-												<div style={{fontSize: '10px'}}>Contact Me</div>
+												Contact Me
 											</AniLink>
 										</p>
 									</div>
 								</div>
 							</div>
 						</div>
-						</Fade>
 					</div>
 				</div>
 					{/* <div className="intro-heading">
@@ -215,95 +213,6 @@ const AboutPage = (props) => {
 						</div>
 					</div>
 				</div>
-
-				<div id="colorlib-testimony">
-					<div className="container">
-						<div className="row text-center">
-							<h2 className="bold">Reviews</h2>
-						</div>
-						<div className="row">
-							<div className="col-md-12 col-md-offset-0 text-center animate-box intro-heading">
-								<span>Testimonies</span>
-								<h2>Clients Says</h2>
-							</div>
-						</div>
-						<div className="row">
-							<div className="col-md-12">
-								<div className="rotate">
-									<h2 className="heading">Testimonies</h2>
-								</div>
-							</div>
-						</div>
-						<div className="row animate-box">
-							<Carousel slide={false} interval={4000} pauseOnHover={false}>
-								<Carousel.Item classNameName="carousel-item">
-									<div className="item">
-										<div className="col-md-12 text-center">
-											<div className="testimony">
-												<blockquote>
-													<p>
-														"The style is really unique and I love it. 
-														They really accomplished more than I expected."
-														professional and courteous. 
-														Definitely an asset to your company
-													</p>
-													<span> &mdash; George Brooks</span>
-												</blockquote>
-											</div>
-										</div>
-									</div>
-								</Carousel.Item>
-								<Carousel.Item classNameName="carousel-item">
-									<div className="item">
-										<div className="col-md-12 text-center">
-											<div className="testimony">
-												<blockquote>
-													<p>
-														"Five star performance and customer service. 
-														All were professional and courteous. 
-														Definitely an asset to your company."
-													</p>
-													<span>&mdash; Daniel Foster</span>
-												</blockquote>
-											</div>
-										</div>
-									</div>
-								</Carousel.Item>
-								<Carousel.Item classNameName="carousel-item">
-									<div className="item">
-										<div className="col-md-12 text-center">
-											<div className="testimony">
-												<blockquote>
-													<p>
-														"Outstanding price, service, hard working, polite men. 
-														Truly impressed and by far the best in the business."
-													</p>
-													<span>&mdash; Liam Jenkins</span>
-												</blockquote>
-											</div>
-										</div>
-									</div>
-								</Carousel.Item>
-								<Carousel.Item classNameName="carousel-item">
-									<div className="item">
-										<div className="col-md-12 text-center">
-											<div className="testimony">
-												<blockquote>
-													<p>
-														"Above {'&'} totally beyond. 
-														Really really awesome job and super gentleman. 
-														Thank you, thank you!"
-													</p>
-													<span>&mdash; Jodie Lawson</span>
-												</blockquote>
-											</div>
-										</div>
-									</div>
-								</Carousel.Item>
-							</Carousel>
-						</div>
-					</div>
-				</div>
 			</Fade>	
 		</Layout>
 	);
@@ -332,4 +241,5 @@ export const aboutPageQuery = graphql`
 		}
 	}
 `
+
 export default AboutPage;
