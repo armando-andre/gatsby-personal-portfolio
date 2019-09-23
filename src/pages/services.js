@@ -17,9 +17,9 @@ export default () => (
 							<div className="services-flex">
 								<div className="one-third">
 									<div className="row">
-										<div className="col-md-12 col-md-offset-0 animate-box intro-heading">
+										<div className="col-md-12 col-md-offset-0 animate-box text-center negative-margin-top">
 											<span>Technologies</span>
-											<h2>What I Use To Work</h2>
+											<h2 className="space-between-content">What I Use To Work</h2>
 										</div>
 									</div>
 									<div className="container">
@@ -191,7 +191,7 @@ export default () => (
 								<span className="progress-right">
 									<span className="progress-bar"></span>
 								</span>
-								<div className="progress-value">Beginer</div>
+								<div className="progress-value">Beginner</div>
 							</div>
 						</div>
 					</div>

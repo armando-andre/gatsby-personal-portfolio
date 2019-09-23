@@ -63,7 +63,7 @@ const AboutPage = (props) => {
 										</p>
 										<IconsComponent />
 										<p>
-											<AniLink paintDrip hex="#000000" to="/works" className="btn btn-primary btn-outline">
+											<AniLink paintDrip hex="#000000" to="/contact" className="btn btn-primary btn-outline">
 												Contact Me
 											</AniLink>
 										</p>
@@ -111,9 +111,9 @@ const AboutPage = (props) => {
 								<div className="services-flex">
 									<div className="one-third">
 										<div className="row">
-											<div className="col-md-12 col-md-offset-0 animate-box intro-heading">
+											<div className="col-md-12 col-md-offset-0 animate-box intro-heading text-center negative-margin-top">
 												<span>Process</span>
-												<h1>Big Picture</h1>
+												<h1 className="space-between-content">Big Picture</h1>
 											</div>
 										</div>
 										<div className="row">
@@ -158,9 +158,9 @@ const AboutPage = (props) => {
 								<div className="services-flex">
 									<div className="one-third">
 										<div className="row">
-											<div className="col-md-12 col-md-offset-0 animate-box intro-heading">
+											<div className="col-md-12 col-md-offset-0 animate-box intro-heading text-center negative-margin-top">
 												<span>Target</span>
-												<h1>Focus</h1>
+												<h1 className="space-between-content">Focus</h1>
 											</div>
 										</div>
 										<div className="row">
@@ -192,7 +192,7 @@ const AboutPage = (props) => {
 													</p>
 												</div>
 												<div className="services animate-box">
-													<h3>3 - Well Mantained Softwares</h3>
+													<h3>3 - Well Mantained Software</h3>
 													<p>
 														Software maintenance is an activity which includes optimization, 
 														error correction, deletion of discarded features and enhancement of existing features. 

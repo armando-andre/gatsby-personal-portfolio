@@ -35,7 +35,7 @@ const WorksPage = (props) => {
 						</div>
 					
 						<WorkImages>
-							<a href="https://www.accountberry.com" target="_blank">
+							<a href="https://uniqorns-website.leodrez.now.sh" target="_blank">
 								<Img className="works-images" fluid={props.data.uniqorns.childImageSharp.fluid} />
 							</a>
 							<div className="col-md-4 col-md-offset-4" style={textAlign}>
@@ -47,7 +47,7 @@ const WorksPage = (props) => {
 										efficient and consistent experience for each client.
 									</p>
 									<p className="read">
-										<a href="https://www.accountberry.com" target="_blank">View Details</a>
+										<a href="https://uniqorns-website.leodrez.now.sh" target="_blank">View Details</a>
 									</p>
 								</div>
 							</div>

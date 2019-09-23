@@ -1414,3 +1414,12 @@ input[type="text"] {
 .carousel-inner .active {
   opacity: 1;
 }
+
+.negative-margin-top {
+  margin-top: -50px;
+  margin-bottom: 30px;
+}
+
+.space-between-content {
+  margin-top: 15px;
+}

@@ -9,6 +9,14 @@ const activeStyle = {
   color: 'black'
 }
 
+const marginHeaderMobile = {
+  marginBottom: '20px'
+}
+
+const marginHeaderMobileLastChild = {
+  marginBottom: '50px'
+}
+
 const Header = () => {
   const data = useStaticQuery(graphql`
     query {
@@ -41,12 +49,12 @@ const Header = () => {
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
         <Nav>
-          <AniLink paintDrip hex="#000000" to="/about" className="navbarText" activeStyle={activeStyle}>About</AniLink>
-          <AniLink paintDrip hex="#000000" to="/services" className="navbarText" activeStyle={activeStyle}>Services</AniLink>
-          <AniLink paintDrip hex="#000000" to="/works" className="navbarText" activeStyle={activeStyle}>Works</AniLink>
-          <AniLink paintDrip hex="#000000" to="/ideas" className="navbarText" activeStyle={activeStyle}>Ideas</AniLink>
-          <AniLink paintDrip hex="#000000" to="/blog" className="navbarText" activeStyle={activeStyle}>Blog</AniLink>
-          <AniLink paintDrip hex="#000000" to="/contact" className="navbarText" activeStyle={activeStyle}>Contact</AniLink>
+          <AniLink paintDrip hex="#000000" to="/about" className="navbarText" style={marginHeaderMobile} activeStyle={activeStyle}>About</AniLink>
+          <AniLink paintDrip hex="#000000" to="/services" className="navbarText" style={marginHeaderMobile} activeStyle={activeStyle}>Services</AniLink>
+          <AniLink paintDrip hex="#000000" to="/works" className="navbarText" style={marginHeaderMobile} activeStyle={activeStyle}>Works</AniLink>
+          <AniLink paintDrip hex="#000000" to="/ideas" className="navbarText" style={marginHeaderMobile} activeStyle={activeStyle}>Ideas</AniLink>
+          <AniLink paintDrip hex="#000000" to="/blog" className="navbarText" style={marginHeaderMobile} activeStyle={activeStyle}>Blog</AniLink>
+          <AniLink paintDrip hex="#000000" to="/contact" className="navbarText" style={marginHeaderMobileLastChild} activeStyle={activeStyle}>Contact</AniLink>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
