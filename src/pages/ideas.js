@@ -1,23 +1,25 @@
 import React from "react"
 import Img from "gatsby-image"
 import { graphql } from "gatsby"
-import Fade from 'react-reveal/Fade'
+import Fade from "react-reveal/Fade"
+import { Helmet } from "react-helmet";
 
 import Layout from "../components/layout"
 import IdeasImages from "../components/ideasImages"
 
 const textAlign = {
-	width: '100%',
-	margin: '0 auto'
+	width: "100%",
+	margin: "0 auto"
 }
 
 const borderRadius = {
-  borderRadius: '5px'
+  borderRadius: "5px"
 }
 
 const WorksPage = (props) => {
   return (
     <Layout>
+			<Helmet title="Armando André: Ideas" defer={false} />
       <Fade delay={500}>
         <div id="colorlib-about" className="bottom-padding-remover">
           <div className="container">
@@ -90,7 +92,7 @@ const WorksPage = (props) => {
 							<h1>NOTE</h1>
 							<div className="desc">
 								<p>
-									If yo did not find what you where looking for, don't worry!
+									If yo did not find what you where looking for, don"t worry!
 									Just contact me to start creating your own idea from scratch.
 								</p>
 							</div>

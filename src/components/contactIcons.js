@@ -22,22 +22,22 @@ const IconsComponent = () => {
         </a>
       </li>
       <li>
-        <a href="https://linkedin.com/in/armando-calderon-927677171" target="_blank">
+        <a href="https://linkedin.com/in/armando-calderon-927677171" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={['fab', 'linkedin-in']} style={iconFont} /> Linked In
         </a>
       </li>
       <li>
-        <a href="https://www.instagram.com/armando__andre/" target="_blank" >
+        <a href="https://www.instagram.com/armando__andre/" target="_blank" rel="noopener noreferrer" >
           <FontAwesomeIcon icon={['fab', 'instagram']} style={iconFont} /> Instagram
         </a>
       </li>
       <li>
-        <a href="https://github.com/armando-andre" target="_blank">
+        <a href="https://github.com/armando-andre" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={['fab', 'github-alt']} style={iconFont} /> Github
         </a>
       </li>
       <li>
-        <a href="https://www.google.com/maps/place/UNIQORNS/@18.450566,-66.070403,16z/data=!4m5!3m4!1s0x8c036fcaaca69e1b:0xc5f2015e9f42fcd2!8m2!3d18.4498914!4d-66.0739543" target="_blank">
+        <a href="https://www.google.com/maps/place/UNIQORNS/@18.450566,-66.070403,16z/data=!4m5!3m4!1s0x8c036fcaaca69e1b:0xc5f2015e9f42fcd2!8m2!3d18.4498914!4d-66.0739543" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={['far', 'map']} style={iconFont} />
           1250 Avenida Juan Ponce de León 4th Floor, San Juan, 00907
         </a>

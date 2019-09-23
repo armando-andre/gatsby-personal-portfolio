@@ -1,12 +1,14 @@
 import React from "react";
-import Fade from 'react-reveal/Fade';
+import Fade from "react-reveal/Fade";
+import { Helmet } from "react-helmet";
 
 import Layout from "../components/layout";
-import IconsComponent from "../components/contactIcons"
+import IconsComponent from "../components/contactIcons";
 
 export default () => (
   <Layout>
 		<Fade delay={500}>
+			<Helmet title="Armando André: Contact" defer={false} />
     	<div id="colorlib-contact">
 				<div className="container">
 					<div className="row text-center">

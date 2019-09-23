@@ -16,16 +16,16 @@ const iconFont = {
 const IconsComponent = () => {
   return (
     <span>
-      <a href="https://linkedin.com/in/armando-calderon-927677171" target="_blank">
+      <a href="https://linkedin.com/in/armando-calderon-927677171" target="_blank" rel="noopener noreferrer">
         <FontAwesomeIcon icon={['fab', 'linkedin-in']} style={iconFont} />
       </a>
       <a href="mailto: armandoandrecalderon@gmail.com?Subject=Contact%20for%20job" >
         <FontAwesomeIcon icon={['far', 'envelope']} style={iconFont} />
       </a>
-      <a href="https://github.com/armando-andre" target="_blank">
+      <a href="https://github.com/armando-andre" target="_blank" rel="noopener noreferrer">
         <FontAwesomeIcon icon={['fab', 'github-alt']} style={iconFont} />
       </a>
-      <a href="https://www.instagram.com/armando__andre/" target="_blank" >
+      <a href="https://www.instagram.com/armando__andre/" target="_blank" rel="noopener noreferrer">
         <FontAwesomeIcon icon={['fab', 'instagram']} style={iconFont} />
       </a>
     </span>

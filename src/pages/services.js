@@ -1,11 +1,13 @@
 import React from "react";
-import Fade from 'react-reveal/Fade';
-import Carousel from 'react-bootstrap/Carousel'
+import Fade from "react-reveal/Fade";
+import { Helmet } from "react-helmet";
+import Carousel from "react-bootstrap/Carousel";
 
 import Layout from "../components/layout";
 
 export default () => (
   <Layout>
+		<Helmet title="Armando André: Services" defer={false} />
 		<Fade delay={500}>
 			<div id="colorlib-services">
 				<div className="container">
@@ -101,7 +103,7 @@ export default () => (
 													<ul>
 														<li>Node JS</li>
 														<li>GraphQL</li>
-														<li>RESTful API's</li>
+														<li>RESTful API"s</li>
 														<li>CSS / SASS / Flexbox</li>
 													</ul>
 												</div>
@@ -272,7 +274,7 @@ export default () => (
 										<div className="testimony">
 											<blockquote>
 												<p>
-													"Above {'&'} totally beyond. 
+													"Above {"&"} totally beyond. 
 													Really really awesome job and super gentleman. 
 													Thank you, thank you!"
 												</p>

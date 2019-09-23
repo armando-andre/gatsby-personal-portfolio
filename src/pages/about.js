@@ -1,8 +1,9 @@
 import React from "react";
 import Img from "gatsby-image"
 import { graphql } from "gatsby"
-import Fade from 'react-reveal/Fade';
-import Carousel from 'react-bootstrap/Carousel'
+import { Helmet } from "react-helmet";
+import Fade from "react-reveal/Fade";
+import Carousel from "react-bootstrap/Carousel"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 import Layout from "../components/layout";
@@ -11,6 +12,7 @@ import IconsComponent from "../components/aboutIcons";
 const AboutPage = (props) => {
 	return (
 		<Layout>
+			<Helmet title="Armando André: About" defer={false} />
 			<Fade delay={500}>
 				<div id="colorlib-about">
 					<div className="container">
@@ -18,22 +20,22 @@ const AboutPage = (props) => {
 							<h2 className="bold">About</h2>
 						</div>
 						<div className="row row-padded-bottom">
-							<div className="col-md-5 animate-box" style={{marginRight: '70px'}}>
-								<Carousel slide={false} interval={5000} pauseOnHover={false} controls={false} style={{width: '100%'}}>
+							<div className="col-md-5 animate-box" style={{marginRight: "70px"}}>
+								<Carousel slide={false} interval={5000} pauseOnHover={false} controls={false} style={{width: "100%"}}>
 									<Carousel.Item className="carousel-item">
-										<Img style={{borderRadius: '5px'}} fluid={props.data.portrait2.childImageSharp.fluid} />
+										<Img style={{borderRadius: "5px"}} fluid={props.data.portrait2.childImageSharp.fluid} />
 									</Carousel.Item>
 									<Carousel.Item className="carousel-item">
-										<Img style={{borderRadius: '5px'}} fluid={props.data.portrait1.childImageSharp.fluid} />
+										<Img style={{borderRadius: "5px"}} fluid={props.data.portrait1.childImageSharp.fluid} />
 									</Carousel.Item>
 									<Carousel.Item className="carousel-item">
-										<Img style={{borderRadius: '5px'}} fluid={props.data.portrait3.childImageSharp.fluid} />
+										<Img style={{borderRadius: "5px"}} fluid={props.data.portrait3.childImageSharp.fluid} />
 									</Carousel.Item>
 								</Carousel>
 							</div>
 							<div className="col-md-6 col-md-push-1 animate-box">
 								<div className="about-desc">
-									<Carousel slide={false} interval={5000} pauseOnHover={false} controls={false} style={{width: '70vw'}}>
+									<Carousel slide={false} interval={5000} pauseOnHover={false} controls={false} style={{width: "70vw"}}>
 										<Carousel.Item className="carousel-item">
 											<h2>
 												<span>Armando André</span>
@@ -188,7 +190,7 @@ const AboutPage = (props) => {
 													<p>
 														I listen to my clients and take care of their situations as quickly as I can in order to provide them the best possible service.
 														Also I do my best my best giving them all their need to feel comfortable working with me.
-														Don't be afraid, feel free to contact me and talk about your ideas to improve your future together.
+														Don"t be afraid, feel free to contact me and talk about your ideas to improve your future together.
 													</p>
 												</div>
 												<div className="services animate-box">

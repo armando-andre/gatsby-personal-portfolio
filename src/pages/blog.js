@@ -1,7 +1,8 @@
 import React from "react";
-import Img from "gatsby-image"
-import { graphql } from "gatsby"
-import Fade from 'react-reveal/Fade';
+import Img from "gatsby-image";
+import { graphql } from "gatsby";
+import Fade from "react-reveal/Fade";
+import { Helmet } from "react-helmet";
 
 import Layout from "../components/layout";
 import BlogImages from "../components/blogImages"
@@ -9,6 +10,7 @@ import BlogImages from "../components/blogImages"
 const BlogPage = (props) => (
   <Layout>
 		<Fade delay={500}>
+			<Helmet title="Armando André: Blog" defer={false} />
     	<div id="colorlib-blog">
 				<div className="container">
 					<div className="row text-center">

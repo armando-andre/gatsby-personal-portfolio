@@ -1,14 +1,94 @@
 .index-main-container {
+  overflow: hidden;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background: #fafafa;
+}
+
+.index-text-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  letter-spacing: 10px;
+}
+
+.index-text-container h1 {
+  font-size: 18vw;
+  margin-bottom: 0;
+  color: black;
+  font-family: "Playfair Display", Georgia, serif;
+}
+
+.right-align {
+  width: 133%;
+  padding-right: 0%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.left-align {
+  padding-left: 4.5%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.vertical-line-wrapper {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.vertical-line {
+  height: 100vh;
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.circle-wrapper {
+  margin: 0;
+  padding: 0;
+  position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 100vh;
-  background: white;
-  animation: example 3s linear;
 }
 
-@keyframes example {
-  from {background-color: black;}
-  to {background-color: white;}
+.progress-index {
+  width: 70vw;
+  height: 70vw;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  position: relative; }
+
+.progress-index:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  position: absolute; }
+
+.rotating-text-wrapper {
+  position: absolute;
+  bottom: 10%;
+  right: 7%;
+}
+
+.rotate-text {
+  width: 120px;
+  height: 120px;
+  animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
 }

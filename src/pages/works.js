@@ -1,14 +1,14 @@
 import React from "react";
 import Img from "gatsby-image"
 import { graphql } from "gatsby"
-import Fade from 'react-reveal/Fade'
+import Fade from "react-reveal/Fade"
 
 import Layout from "../components/layout"
 import WorkImages from "../components/workImages";
 
 const textAlign = {
-	width: '100%',
-	margin: '0 auto'
+	width: "100%",
+	margin: "0 auto"
 }
 
 const WorksPage = (props) => {
@@ -35,7 +35,7 @@ const WorksPage = (props) => {
 						</div>
 					
 						<WorkImages>
-							<a href="https://uniqorns-website.leodrez.now.sh" target="_blank">
+							<a href="https://uniqorns-website.leodrez.now.sh" target="_blank" rel="noopener noreferrer">
 								<Img className="works-images" fluid={props.data.uniqorns.childImageSharp.fluid} />
 							</a>
 							<div className="col-md-4 col-md-offset-4" style={textAlign}>
@@ -47,14 +47,14 @@ const WorksPage = (props) => {
 										efficient and consistent experience for each client.
 									</p>
 									<p className="read">
-										<a href="https://uniqorns-website.leodrez.now.sh" target="_blank">View Details</a>
+										<a href="https://uniqorns-website.leodrez.now.sh" target="_blank" rel="noopener noreferrer">View Details</a>
 									</p>
 								</div>
 							</div>
 						</WorkImages>
 						
 						<WorkImages>
-							<a href="https://www.accountberry.com" target="_blank">
+							<a href="https://www.accountberry.com" target="_blank" rel="noopener noreferrer">
 								<Img className="works-images" fluid={props.data.accountberry.childImageSharp.fluid} />
 							</a>
 							<div className="col-md-4 col-md-offset-4" style={textAlign}>
@@ -66,7 +66,7 @@ const WorksPage = (props) => {
 										We are very proud of being the sweetest accounting software in the market.
 									</p>
 									<p className="read">
-										<a href="https://www.accountberry.com" target="_blank">View Details</a>
+										<a href="https://www.accountberry.com" target="_blank" rel="noopener noreferrer">View Details</a>
 									</p>
 								</div>
 							</div>
@@ -74,7 +74,7 @@ const WorksPage = (props) => {
 					
 
 						<WorkImages>
-							<a href="https://omnifood-au7u87zcs.now.sh" target="_blank">
+							<a href="https://omnifood-au7u87zcs.now.sh" target="_blank" rel="noopener noreferrer">
 								<Img className="works-images" fluid={props.data.omnifood.childImageSharp.fluid} />
 							</a>
 							<div className="col-md-4 col-md-offset-4" style={textAlign}>
@@ -86,7 +86,7 @@ const WorksPage = (props) => {
 										So let us take care of that, we’re really good at it, we promise.
 									</p>
 									<p className="read">
-										<a href="https://omnifood-au7u87zcs.now.sh" target="_blank">View details</a>
+										<a href="https://omnifood-au7u87zcs.now.sh" target="_blank" rel="noopener noreferrer">View details</a>
 									</p>
 								</div>
 							</div>
