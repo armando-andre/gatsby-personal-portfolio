@@ -8,7 +8,7 @@ import Layout from "../components/layout";
 export default () => (
   <Layout>
 		<Helmet title="Armando André: Services" defer={false} />
-		<Fade delay={500}>
+		<Fade delay={300}>
 			<div id="colorlib-services">
 				<div className="container">
 					<div className="row text-center">

@@ -14,7 +14,7 @@ const textAlign = {
 const WorksPage = (props) => {
 	return (
 		<Layout>
-			<Fade delay={500}>
+			<Fade delay={300}>
 				<div id="colorlib-work" className="bottom-padding-remover">
 					<div className="container">
 						<div className="row text-center">

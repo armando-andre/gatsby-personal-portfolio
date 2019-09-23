@@ -20,7 +20,7 @@ const WorksPage = (props) => {
   return (
     <Layout>
 			<Helmet title="Armando André: Ideas" defer={false} />
-      <Fade delay={500}>
+      <Fade delay={300}>
         <div id="colorlib-about" className="bottom-padding-remover">
           <div className="container">
             <div className="row text-center">

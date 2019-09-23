@@ -9,7 +9,7 @@ import BlogImages from "../components/blogImages"
 
 const BlogPage = (props) => (
   <Layout>
-		<Fade delay={500}>
+		<Fade delay={300}>
 			<Helmet title="Armando André: Blog" defer={false} />
     	<div id="colorlib-blog">
 				<div className="container">
