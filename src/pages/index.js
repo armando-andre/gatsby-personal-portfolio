@@ -8,7 +8,7 @@ import rotatedText from "../images/rotatedText.png"
 
 const IndexPage = () => {
   return (
-    <div className="index-main-container">
+    <div className="index-main-container loader-class">
       <Helmet title="Armando André" defer={false} />
       <Fade delay={2000}>
         <div className="vertical-line-wrapper">

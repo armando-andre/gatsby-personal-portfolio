@@ -93,3 +93,17 @@
     transform: rotate(359deg);
   }
 }
+
+.loader-class {
+  opacity: 0;
+  animation: loading 2s forwards 2s;
+}
+
+@keyframes loading {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
