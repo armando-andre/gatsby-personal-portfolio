@@ -221,7 +221,7 @@ export default () => (
 					<div className="row animate-box">
 						<Carousel slide={false} interval={4000} pauseOnHover={false}>
 							<Carousel.Item className="carousel-item">
-								<div className="item" style={{ height: '450px'}}>
+								<div className="item" style={{ height: '300px'}}>
 									<div className="col-md-12 text-center">
 										<div className="testimony">
 											<blockquote>
@@ -235,7 +235,7 @@ export default () => (
 								</div>
 							</Carousel.Item>
 							<Carousel.Item className="carousel-item">
-								<div className="item" style={{ height: '450px'}}>
+								<div className="item" style={{ height: '300px'}}>
 									<div className="col-md-12 text-center">
 										<div className="testimony">
 											<blockquote>
@@ -249,7 +249,7 @@ export default () => (
 								</div>
 							</Carousel.Item>
 							<Carousel.Item className="carousel-item">
-								<div className="item" style={{ height: '450px'}}>
+								<div className="item" style={{ height: '300px'}}>
 									<div className="col-md-12 text-center">
 										<div className="testimony">
 											<blockquote>
