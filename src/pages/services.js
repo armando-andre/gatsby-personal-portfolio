@@ -256,22 +256,6 @@ export default () => (
 										<div className="testimony">
 											<blockquote>
 												<p>
-													"Five star performance and customer service. 
-													All were professional and courteous. 
-													Definitely an asset to your company."
-												</p>
-												<span> &mdash; Mario Salgado</span>
-											</blockquote>
-										</div>
-									</div>
-								</div>
-							</Carousel.Item>
-							<Carousel.Item className="carousel-item">
-								<div className="item" style={{ height: '450px'}}>
-									<div className="col-md-12 text-center">
-										<div className="testimony">
-											<blockquote>
-												<p>
 													"Above {"&"} totally beyond. 
 													Really awesome job and super courteous. 
 													Thank you a lot!"
