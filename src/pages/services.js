@@ -229,7 +229,6 @@ export default () => (
 													"The style is unique and I love it. 
 													You really accomplished more than I expected."
 												</p>
-												<span> &mdash; Carlos Rodríguez</span>
 											</blockquote>
 										</div>
 									</div>
@@ -244,7 +243,6 @@ export default () => (
 													"Outstanding price, service, hardworking, polite young man. 
 													Truly impressed with the result."
 												</p>
-												<span> &mdash; Paola Arroyo</span>
 											</blockquote>
 										</div>
 									</div>
@@ -260,7 +258,6 @@ export default () => (
 													Really awesome job and super courteous. 
 													Thank you a lot!"
 												</p>
-												<span> &mdash; Jodie Lawson</span>
 											</blockquote>
 										</div>
 									</div>
