@@ -20,7 +20,7 @@ const marginHeaderMobileLastChild = {
 const Header = () => {
   const data = useStaticQuery(graphql`
     query {
-      logo: file(relativePath: { eq: "icon.png" }) {
+      logo: file(relativePath: { eq: "logo-short.png" }) {
         childImageSharp {
           fluid(maxWidth: 1000) {
             ...GatsbyImageSharpFluid
