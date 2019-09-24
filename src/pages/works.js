@@ -71,7 +71,6 @@ const WorksPage = (props) => {
 								</div>
 							</div>
 						</WorkImages>
-					
 
 						<WorkImages>
 							<a href="https://omnifood-au7u87zcs.now.sh" target="_blank" rel="noopener noreferrer">

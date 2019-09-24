@@ -226,12 +226,25 @@ export default () => (
 										<div className="testimony">
 											<blockquote>
 												<p>
-													"The style is really unique and I love it. 
-													They really accomplished more than I expected."
-													professional and courteous. 
-													Definitely an asset to your company
+													"The style is unique and I love it. 
+													You really accomplished more than I expected."
 												</p>
-												<span> &mdash; George Brooks</span>
+												<span> &mdash; Carlos Rodríguez</span>
+											</blockquote>
+										</div>
+									</div>
+								</div>
+							</Carousel.Item>
+							<Carousel.Item className="carousel-item">
+								<div className="item">
+									<div className="col-md-12 text-center">
+										<div className="testimony">
+											<blockquote>
+												<p>
+													"Outstanding price, service, hardworking, polite young man. 
+													Truly impressed with the result."
+												</p>
+												<span> &mdash; Paola Arroyo</span>
 											</blockquote>
 										</div>
 									</div>
@@ -247,22 +260,7 @@ export default () => (
 													All were professional and courteous. 
 													Definitely an asset to your company."
 												</p>
-												<span>&mdash; Daniel Foster</span>
-											</blockquote>
-										</div>
-									</div>
-								</div>
-							</Carousel.Item>
-							<Carousel.Item className="carousel-item">
-								<div className="item">
-									<div className="col-md-12 text-center">
-										<div className="testimony">
-											<blockquote>
-												<p>
-													"Outstanding price, service, hard working, polite men. 
-													Truly impressed and by far the best in the business."
-												</p>
-												<span>&mdash; Liam Jenkins</span>
+												<span> &mdash; Mario Salgado</span>
 											</blockquote>
 										</div>
 									</div>
@@ -275,8 +273,8 @@ export default () => (
 											<blockquote>
 												<p>
 													"Above {"&"} totally beyond. 
-													Really really awesome job and super gentleman. 
-													Thank you, thank you!"
+													Really awesome job and super courteous. 
+													Thank you a lot!"
 												</p>
 												<span>&mdash; Jodie Lawson</span>
 											</blockquote>

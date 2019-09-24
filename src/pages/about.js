@@ -48,7 +48,7 @@ const AboutPage = (props) => {
 										</Carousel.Item>
 										<Carousel.Item className="carousel-item">
 											<h2>
-												<span>Fullstack Developer</span>
+												<span>Full Stack Developer</span>
 											</h2>
 										</Carousel.Item>
 									</Carousel>
@@ -75,32 +75,6 @@ const AboutPage = (props) => {
 						</div>
 					</div>
 				</div>
-					{/* <div className="intro-heading">
-						<h1>My Code Is</h1>
-					</div>				
-					<ul>
-						<li className="services">
-							<h3>Readable</h3>
-						</li>
-						<li className="services">
-							<h3>Correct</h3>
-						</li>
-						<li className="services">
-							<h3>Reliable</h3>
-						</li>
-						<li className="services">
-							<h3>Reusable</h3>
-						</li>
-						<li className="services">
-							<h3>Extendable</h3>
-						</li>
-						<li className="services">
-							<h3>Flexible</h3>
-						</li>
-						<li className="services">
-							<h3>Efficient</h3>
-						</li>
-					</ul> */}
 			</Fade>
 			<Fade delay={300}>
 				<div id="colorlib-work">
@@ -126,19 +100,16 @@ const AboutPage = (props) => {
 											</div>
 											<div className="col-md-12">
 												<div className="services animate-box">
-													<h3>More than work, study</h3>
+													<h3>Responsibility</h3>
 												</div>
 												<div className="services animate-box">
 													<p>
-														It’s important that we, as software engineers, 
-														have goals for each year to help with our professional development. 
-														Doing so will help to make sure we are keeping up with ever-changing technologies and
-														taking opportunities for professional development and career growth.
-
-														Each engineer should create a few goals per year and work with
-														their leadership to track their progress towards completing these goals.
-														It also helps to ensure that your leadership supports your ongoing career growth and
-														development.
+														My role as a computer engineer is:
+														Improve the quality of the system by identifying problems, common patterns and developing standard operating procedures.
+														Improve applications by identifying opportunities for improvement, making recommendations and designing and implementing systems.
+														Maintain and improve existing code bases and changes in the peer review code.
+														Liaison with colleagues to implement technical designs.
+														Research and use of new technologies when relevant.
 													</p>
 												</div>
 											</div>
@@ -177,20 +148,20 @@ const AboutPage = (props) => {
 													<h3 className="margin-top margin-left">Clarity:</h3>
 													<p className="margin-left">Easy to read and oversee for anyone who isn’t the creator of the code. If it’s easy to understand, it’s much easier to maintain and extend the code. Not just computers, but also humans need to understand it.</p>
 													<h3 className="margin-top margin-left">Maintainable:</h3>
-													<p className="margin-left">A high-quality code isn’t overcomplicated. It’s always recommended to add comments to the code to explain its role and functions. It makes it much easier for anyone who didn’t take part in writing the code to understand and maintain it.</p>
+													<p className="margin-left">A high-quality code isn’t over complicated. It’s always recommended adding comments to the code to explain its role and functions. It makes it much easier for anyone who didn’t take part in writing the code to understand and maintain it.</p>
 													<h3 className="margin-top margin-left">Refactored:</h3>
 													<p className="margin-left">Code formatting needs to be consistent and follow the language’s coding conventions.</p>
 													<h3 className="margin-top margin-left">Extensible:</h3>
-													<p className="margin-left">When software is estensible is designed so that users or developers can expand or add to its capabilities.</p>
+													<p className="margin-left">When software is extensible is designed so that users or developers can expand or add to its capabilities.</p>
 													<h3 className="margin-top margin-left">Efficiency:</h3>
 													<p className="margin-left">High-quality code doesn’t use unnecessary resources to perform a desired action.</p>
 												</div>
 												<div className="services animate-box">
 													<h3>2 - Customer Satisfaction</h3>
 													<p>
-														I listen to my clients and take care of their situations as quickly as I can in order to provide them the best possible service.
-														Also I do my best my best giving them all their need to feel comfortable working with me.
-														Don"t be afraid, feel free to contact me and talk about your ideas to improve your future together.
+													I listen to my clients and take care of their situations as quickly as I can in order to provide them the best possible service.
+													Also, I do my best giving them all their need to feel comfortable working with me.
+													Don't be afraid, feel free to contact me and talk about your ideas to improve your future together.
 													</p>
 												</div>
 												<div className="services animate-box">
@@ -202,9 +173,6 @@ const AboutPage = (props) => {
 														controlling and making modifications. 
 														The essential part of software maintenance requires preparation of 
 														an accurate plan during the development cycle. 
-														Typically, maintenance takes up about 40-80% of the project cost, 
-														usually closer to the higher pole. 
-														Hence, a focus on maintenance definitely helps keep costs down.
 													</p>
 												</div>
 											</div>

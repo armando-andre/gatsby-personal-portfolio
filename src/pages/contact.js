@@ -38,11 +38,11 @@ export default () => (
 									<h3>Feel free to contact me if you have questions like: </h3>
 									<div className="row">
 										<ul>
-											<p>What is a Software Engineer / Fullstack Developer.</p>
+											<p>What is a Software Engineer / Full Stack Developer.</p>
 											<p>The pricing of a website, gallery, blog, portfolio, etc.</p>
 											<p>A topic that have not been answered in any of the portfolio pages.</p>
-											<p>Availability of working or coworking with a company, freelancer, agency, etc.</p>
-											<p>How a Software Engineer / Fullstack Developer make your business increase sales.</p>
+											<p>Availability of working or co working with a company, freelancer, agency, etc.</p>
+											<p>How a Software Engineer / Full Stack Developer make your business increase sales.</p>
 											<p>Any Other</p>
 										</ul>
 									</div>
