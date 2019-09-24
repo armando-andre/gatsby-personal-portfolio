@@ -10,7 +10,7 @@ const IndexPage = () => {
   return (
     <div className="index-main-container">
       <Helmet title="Armando André" defer={false} />
-      <Fade delay={1000}>
+      <Fade delay={2000}>
         <div className="vertical-line-wrapper">
           <div className="vertical-line"></div>
         </div>
