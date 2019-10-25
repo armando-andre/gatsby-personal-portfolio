@@ -4,8 +4,6 @@ import { useStaticQuery, graphql } from "gatsby";
 import Fade from 'react-reveal/Fade';
 import AniLink from "gatsby-plugin-transition-link/AniLink";
 
-import '../styles/footer.css'
-
 import FontAwesomeIcon from "../components/aboutIcons";
 
 const topAlign = {
