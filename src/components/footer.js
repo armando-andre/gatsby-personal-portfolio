@@ -21,21 +21,8 @@ const copyrightMargin = {
   marginTop: '2rem'
 }
 
-var mybutton = document.getElementById("topButton");
-
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    return true
-  } else {
-    return false
-  }
-}
-
-function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
+const MyFunction = () => {
+  window.scrollTo(0, 0);
 }
 
 const Footer = () => {
@@ -94,7 +81,7 @@ const Footer = () => {
                 </div>
               </div>
               <div className="col-md-2" style={topAlign}>
-                <h2 onClick={topFunction} id="topButton">Top</h2>
+                <h2 onClick={MyFunction} id="topButton">Top</h2>
               </div>
             </div>
             <div className="row">
