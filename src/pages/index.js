@@ -2,9 +2,9 @@ import React from "react";
 import { graphql } from "gatsby"
 import Fade from "react-reveal/Fade";
 import { Helmet } from "react-helmet";
-import AniLink from "gatsby-plugin-transition-link/AniLink"
+import AniLink from "gatsby-plugin-transition-link/AniLink";
 
-import rotatedText from "../images/rotatedText.png"
+import rotatedText from "../images/rotatedText.png";
 
 const IndexPage = () => {
   return (
@@ -34,7 +34,7 @@ const IndexPage = () => {
         </div>
       </Fade>
     </div>
-  )
+  );
 }
 
 export const aboutImageComponent = graphql`

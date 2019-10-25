@@ -13,7 +13,7 @@ const AboutPage = (props) => {
 	return (
 		<Layout>
 			<Helmet title="Armando André: About" defer={false} />
-			<Fade delay={300}>
+			<Fade delay={1000}>
 				<div id="colorlib-about">
 					<div className="container">
 						<div className="row text-center">

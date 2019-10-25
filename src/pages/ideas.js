@@ -1,7 +1,7 @@
-import React from "react"
-import Img from "gatsby-image"
-import { graphql } from "gatsby"
-import Fade from "react-reveal/Fade"
+import React from "react";
+import Img from "gatsby-image";
+import { graphql } from "gatsby";
+import Fade from "react-reveal/Fade";
 import { Helmet } from "react-helmet";
 
 import Layout from "../components/layout"
@@ -20,7 +20,7 @@ const WorksPage = (props) => {
   return (
     <Layout>
 			<Helmet title="Armando André: Ideas" defer={false} />
-      <Fade delay={300}>
+      <Fade delay={1000}>
         <div id="colorlib-about" className="bottom-padding-remover">
           <div className="container">
             <div className="row text-center">
@@ -101,7 +101,7 @@ const WorksPage = (props) => {
         </div>			
       </Fade>			
     </Layout>
-  )
+  );
 }
 
 export const worksImageComponent = graphql`

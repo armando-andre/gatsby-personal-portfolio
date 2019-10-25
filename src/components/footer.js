@@ -1,17 +1,21 @@
-import React from "react"
-import Img from "gatsby-image"
-import { useStaticQuery, graphql } from "gatsby"
+import React from "react";
+import Img from "gatsby-image";
+import { useStaticQuery, graphql } from "gatsby";
 import Fade from 'react-reveal/Fade';
-import AniLink from "gatsby-plugin-transition-link/AniLink"
+import AniLink from "gatsby-plugin-transition-link/AniLink";
 
-import FontAwesomeIcon from "../components/aboutIcons"
+import FontAwesomeIcon from "../components/aboutIcons";
+
+const activeStyle = {
+  color: 'black'
+}
 
 const imageWidth = {
   width: '180px'
 }
 
 const margin = {
-  marginBottom: '1.5rem'
+  marginBottom: '.8rem'
 }
 
 const Footer = () => {
@@ -73,27 +77,32 @@ const Footer = () => {
                 <h2>Go Back To</h2>
                 <div className="f-entry-refactored">
                   <div className="desc">
-                    <h3 style={margin}><AniLink paintDrip hex="#000000" className="footer-font-increaser" to="/about">About</AniLink></h3>
+                    <h3 style={margin}><AniLink paintDrip hex="#000000" activeStyle={activeStyle} className="footer-font-increaser" to="/about">About</AniLink></h3>
                   </div>
                 </div>
                 <div className="f-entry-refactored">
                   <div className="desc">
-                    <h3 style={margin}><AniLink paintDrip hex="#000000" className="footer-font-increaser" to="/services">Services</AniLink></h3>
+                    <h3 style={margin}><AniLink paintDrip hex="#000000" activeStyle={activeStyle} className="footer-font-increaser" to="/services">Services</AniLink></h3>
                   </div>
                 </div>
                 <div className="f-entry-refactored">
                   <div className="desc">
-                    <h3 style={margin}><AniLink paintDrip hex="#000000" className="footer-font-increaser" to="/works">Works</AniLink></h3>
+                    <h3 style={margin}><AniLink paintDrip hex="#000000" activeStyle={activeStyle} className="footer-font-increaser" to="/works">Works</AniLink></h3>
                   </div>
                 </div>
                 <div className="f-entry-refactored">
                   <div className="desc">
-                    <h3 style={margin}><AniLink paintDrip hex="#000000" className="footer-font-increaser" to="/blog">Blog</AniLink></h3>
+                    <h3 style={margin}><AniLink paintDrip hex="#000000" activeStyle={activeStyle} className="footer-font-increaser" to="/ideas">Ideas</AniLink></h3>
                   </div>
                 </div>
                 <div className="f-entry-refactored">
                   <div className="desc">
-                    <h3 style={margin}><AniLink paintDrip hex="#000000" className="footer-font-increaser" to="/contact">Contact</AniLink></h3>
+                    <h3 style={margin}><AniLink paintDrip hex="#000000" activeStyle={activeStyle} className="footer-font-increaser" to="/blog">Blog</AniLink></h3>
+                  </div>
+                </div>
+                <div className="f-entry-refactored">
+                  <div className="desc">
+                    <h3 style={margin}><AniLink paintDrip hex="#000000" activeStyle={activeStyle} className="footer-font-increaser" to="/contact">Contact</AniLink></h3>
                   </div>
                 </div>
               </div>
