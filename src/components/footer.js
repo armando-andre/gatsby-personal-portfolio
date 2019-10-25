@@ -4,22 +4,40 @@ import { useStaticQuery, graphql } from "gatsby";
 import Fade from 'react-reveal/Fade';
 import AniLink from "gatsby-plugin-transition-link/AniLink";
 
+import '../styles/footer.css'
+
 import FontAwesomeIcon from "../components/aboutIcons";
 
-const activeStyle = {
-  color: 'black'
+const topAlign = {
+  height: '25rem',
+  display: 'flex',
+  justifyContent: 'center',
+  alignItems: 'center'
 }
 
 const imageWidth = {
   width: '180px'
 }
 
-const margin = {
-  marginBottom: '.8rem'
-}
-
 const copyrightMargin = {
   marginTop: '2rem'
+}
+
+var mybutton = document.getElementById("topButton");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    return true
+  } else {
+    return false
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
 }
 
 const Footer = () => {
@@ -77,38 +95,8 @@ const Footer = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-md-2">
-                <h2>Go Back:</h2>
-                <div className="f-entry-refactored">
-                  <div className="desc">
-                    <h3 style={margin}><AniLink paintDrip hex="#000000" activeStyle={activeStyle} className="footer-font-increaser" to="/about">About</AniLink></h3>
-                  </div>
-                </div>
-                <div className="f-entry-refactored">
-                  <div className="desc">
-                    <h3 style={margin}><AniLink paintDrip hex="#000000" activeStyle={activeStyle} className="footer-font-increaser" to="/services">Services</AniLink></h3>
-                  </div>
-                </div>
-                <div className="f-entry-refactored">
-                  <div className="desc">
-                    <h3 style={margin}><AniLink paintDrip hex="#000000" activeStyle={activeStyle} className="footer-font-increaser" to="/works">Works</AniLink></h3>
-                  </div>
-                </div>
-                <div className="f-entry-refactored">
-                  <div className="desc">
-                    <h3 style={margin}><AniLink paintDrip hex="#000000" activeStyle={activeStyle} className="footer-font-increaser" to="/ideas">Ideas</AniLink></h3>
-                  </div>
-                </div>
-                <div className="f-entry-refactored">
-                  <div className="desc">
-                    <h3 style={margin}><AniLink paintDrip hex="#000000" activeStyle={activeStyle} className="footer-font-increaser" to="/blog">Blog</AniLink></h3>
-                  </div>
-                </div>
-                <div className="f-entry-refactored">
-                  <div className="desc">
-                    <h3 style={margin}><AniLink paintDrip hex="#000000" activeStyle={activeStyle} className="footer-font-increaser" to="/contact">Contact</AniLink></h3>
-                  </div>
-                </div>
+              <div className="col-md-2" style={topAlign}>
+                <h2 onClick={topFunction} id="topButton">Top</h2>
               </div>
             </div>
             <div className="row">

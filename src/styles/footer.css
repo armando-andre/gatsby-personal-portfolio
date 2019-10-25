@@ -1,0 +1,9 @@
+#topButton  {
+  color: #A2A09F !important;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+#topButton:hover  {
+  color: #000 !important;
+}
