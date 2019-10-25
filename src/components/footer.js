@@ -14,10 +14,6 @@ const imageWidth = {
   width: '180px'
 }
 
-const subTitle = {
-  maxWidth: '175px'
-}
-
 const margin = {
   marginBottom: '.8rem'
 }
@@ -82,7 +78,7 @@ const Footer = () => {
                 </div>
               </div>
               <div className="col-md-2">
-                <h2 style={subTitle}>Go Back To</h2>
+                <h2>Go Back:</h2>
                 <div className="f-entry-refactored">
                   <div className="desc">
                     <h3 style={margin}><AniLink paintDrip hex="#000000" activeStyle={activeStyle} className="footer-font-increaser" to="/about">About</AniLink></h3>
