@@ -14,8 +14,16 @@ const imageWidth = {
   width: '180px'
 }
 
+const subTitle = {
+  maxWidth: '175px'
+}
+
 const margin = {
   marginBottom: '.8rem'
+}
+
+const copyrightMargin = {
+  marginTop: '2rem'
 }
 
 const Footer = () => {
@@ -74,7 +82,7 @@ const Footer = () => {
                 </div>
               </div>
               <div className="col-md-2">
-                <h2>Go Back To</h2>
+                <h2 style={subTitle}>Go Back To</h2>
                 <div className="f-entry-refactored">
                   <div className="desc">
                     <h3 style={margin}><AniLink paintDrip hex="#000000" activeStyle={activeStyle} className="footer-font-increaser" to="/about">About</AniLink></h3>
@@ -108,7 +116,7 @@ const Footer = () => {
               </div>
             </div>
             <div className="row">
-              <div className="col-md-12 text-center">
+              <div className="col-md-12 text-center" style={copyrightMargin}>
                 <p>Copyright © 2019 All rights reserved | This website was made by Armando André.</p>
               </div>
             </div>
