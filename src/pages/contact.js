@@ -7,7 +7,7 @@ import IconsComponent from "../components/contactIcons";
 
 export default () => (
   <Layout>
-		<Fade delay={1000}>
+		<Fade delay={500}>
 			<Helmet title="Armando André: Contact" defer={false} />
     	<div id="colorlib-contact">
 				<div className="container">
